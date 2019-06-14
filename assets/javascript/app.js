@@ -67,3 +67,5 @@ database.ref().on("child_added", function(childSnapshot) {
   var nxTrain = moment().add(minToTrain, "minutes").format("HH:mm");
   $("#trainTable>tbody").append("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" + nxTrain + "</td><td>" + frequency + "</td><td>" + minToTrain + "</td></tr>");
 });
+
+// end javascript
