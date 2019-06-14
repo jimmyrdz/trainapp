@@ -55,6 +55,7 @@ database.ref().on("child_added", function(childSnapshot) {
   console.log("CURRENT TIME: " + currentTime);
   // store difference between currentTime and fisrt train converted in a variable.
   var timeDiff = moment().diff(moment(firstTimeConverted), "minutes");
+//   logging first train inout and difference in time
   console.log(firstTrain);
   console.log("Difference in Time: " + timeDiff);
   // find Remainder of the time left and store in a variable
