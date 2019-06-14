@@ -1,4 +1,5 @@
-.jumbotron{
+/* adding style to html */
+.jumbotron {
     background-color: lightgray;
     color:black;
   font: 2em Arial,sans-serif;
