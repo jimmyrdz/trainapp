@@ -13,13 +13,12 @@
   }
   .current ,.add{
     color: white;
-    font-size:20px;
+    font-size: 20px;
   }
   #trainTable{
     background-color: lightgray;
     color:black;
-    font-size:20px;
-    font: bold;
+    font-size: 20px;
   }
   #trainNameInput,#destinationInput,#timeInput,#frequencyInput{
     color:black;
@@ -28,9 +27,9 @@
   }
   .form-group{
     color: black;
-    font-size:20px;
+    font-size: 20px;
   }
   .btn{
     background-color:green;
-    font-size:20px;
+    font-size: 20px;
   }
