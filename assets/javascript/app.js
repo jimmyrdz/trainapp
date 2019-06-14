@@ -1,3 +1,4 @@
+// adding database link
 var firebaseConfig = {
     apiKey: "AIzaSyC1V9vy3fk3Sp8Ghrj68CQe7MkHUP43bcM",
     authDomain: "trainapp-ab933.firebaseapp.com",
@@ -12,6 +13,8 @@ var firebaseConfig = {
 
 
   var database = firebase.database();
+
+//   starting on click function for submit button
 $('#addTrainBtn').on("click", function() {
   // take user input
   var trainName = $("#trainNameInput").val().trim();
@@ -27,6 +30,7 @@ $('#addTrainBtn').on("click", function() {
     }
     // uploads train data to the database
   database.ref().push(newTrain);
+//   logging user input
   console.log(newTrain.name);
   // clears all the text-boxes
   $("#trainNameInput").val("");
